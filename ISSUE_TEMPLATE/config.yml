@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://econ-viz.org
+    about: Check the docs for guides and API reference.
+  - name: Report a security vulnerability
+    url: https://github.com/EconViz/.github/blob/main/SECURITY.md
+    about: Please report security issues privately, not as public issues.

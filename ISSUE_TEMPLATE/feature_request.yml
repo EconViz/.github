@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest a new model, diagram type, or API improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to draw or do?
+      description: Describe the economic concept or use case.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed API or behaviour
+      description: How would you like to use it? A code sketch is welcome.
+      render: python
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Textbook sections, papers, or example figures that illustrate the idea.
