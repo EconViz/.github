@@ -10,9 +10,9 @@
 
 | Repository | Description |
 |---|---|
-| [**econ-viz**](https://github.com/EconViz/econ-viz) | Indifference curves, budget constraints, and consumer equilibria — with a built-in solver, closed-form demand in TeX, Slutsky tools, and PNG / PDF / SVG / TikZ export. |
-| [**principle-econ**](https://github.com/EconViz/principle-econ) | Principles-level market analysis: linear demand and supply, taxes, price controls, and welfare decomposition (CS, PS, DWL). |
-| [**econ-viz-docs**](https://github.com/EconViz/econ-viz-docs) | Documentation source for [econ-viz.org](https://econ-viz.org), built with MkDocs Material. |
+| [**econ&#8209;viz**](https://github.com/EconViz/econ-viz) | Indifference curves, budget constraints, and consumer equilibria — with a built-in solver, closed-form demand in TeX, Slutsky tools, and PNG / PDF / SVG / TikZ export. |
+| [**principle&#8209;econ**](https://github.com/EconViz/principle-econ) | Principles-level market analysis: linear demand and supply, taxes, price controls, and welfare decomposition (CS, PS, DWL). |
+| [**econ&#8209;viz&#8209;docs**](https://github.com/EconViz/econ-viz-docs) | Documentation source for [econ-viz.org](https://econ-viz.org), built with MkDocs Material. |
 
 ## Quick Start
 
