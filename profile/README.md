@@ -6,12 +6,6 @@
   Open-source Python tools for drawing publication-quality economics diagrams.
 </p>
 
-<p align="center">
-  <a href="https://econ-viz.org"><img alt="Docs" src="https://img.shields.io/badge/docs-econ--viz.org-181818?style=flat-square&color=181818&labelColor=f3f3f3"></a>
-  <a href="https://pypi.org/project/econ-viz/"><img alt="econ-viz on PyPI" src="https://img.shields.io/pypi/v/econ-viz?style=flat-square&color=181818&labelColor=f3f3f3&label=econ-viz"></a>
-  <a href="https://pypi.org/project/principle-econ/"><img alt="principle-econ on PyPI" src="https://img.shields.io/pypi/v/principle-econ?style=flat-square&color=181818&labelColor=f3f3f3&label=principle-econ"></a>
-</p>
-
 ## Projects
 
 | Repository | Description |
