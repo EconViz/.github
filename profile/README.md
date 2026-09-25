@@ -41,3 +41,7 @@ cvs.save("cobb_douglas.png")
 ## Contributing
 
 Issues and pull requests are welcome. See [CONTRIBUTING.md](https://github.com/EconViz/econ-viz/blob/main/CONTRIBUTING.md) in the main repository to get started.
+
+## Contact
+
+Questions, collaboration, or teaching use? Email [contact@econ-viz.org](mailto:contact@econ-viz.org).

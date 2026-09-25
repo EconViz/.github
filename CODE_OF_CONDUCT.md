@@ -21,6 +21,6 @@ We as members, contributors, and maintainers pledge to make participation in our
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported to the maintainers at **sungpinyue@gmail.com**. All complaints will be reviewed and investigated promptly and fairly, and the privacy of the reporter will be respected.
+Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported to the maintainers at **contact@econ-viz.org**. All complaints will be reviewed and investigated promptly and fairly, and the privacy of the reporter will be respected.
 
 The full text of the Contributor Covenant, including enforcement guidelines, is available at <https://www.contributor-covenant.org/version/2/1/code_of_conduct/>.
