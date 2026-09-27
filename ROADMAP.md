@@ -8,12 +8,12 @@
 |---|---|---|
 | `econ-viz` → `utility-viz` | 效用函數、無異曲線、MRS、消費者均衡、Edgeworth box | 已發布（PyPI `econ-viz`），改名為 `utility-viz` 進行中 |
 | `principle-viz`（原 `principle-econ`） | 大一經濟學：供需圖（連續/離散）、租稅與補貼（定額/從量/從價）、彈性、福利分析（CS/PS/DWL）、價格管制、數量管制 | 已改名+換 uv，數量管制與離散供需輸入待補 |
-| `micro-viz` | 個體經濟學（不含效用函數本身）：Consumer Choice（budget/Marshallian·Hicksian demand/Engel/PCC·ICC/Slutsky decomposition）、Revealed Preference（WARP/SARP/GARP）、Producer Theory（isoquant/isocost/cost minimization/profit maximization）、Cost Theory（AC/AVC/MC）、General Equilibrium（Edgeworth box、contract curve、core，吃 `utility-viz` 的 preference object） | 規劃中 |
-| `macro-viz` | 總體經濟學：Classical（labor market/production/loanable funds/quantity theory）、Keynesian（Keynesian cross/IS-LM/AD-AS）、New Keynesian（三方程模型）、Growth（Solow/Ramsey）、Dynamics（ODE/difference equation/phase diagram）、Quadrant（多象限聯動圖）。DGE/DSGE 不放在這裡 | 規劃中 |
-| `trade-viz` | 國際貿易：autarky/world price/imports·exports/tariff/quota/trade welfare | 規劃中 |
-| `dsge-viz` | 動態（隨機）一般均衡：deterministic 層（DGE：household/firm optimization、transition dynamics、saddle path）+ stochastic 層（DSGE：linearization、state-space、IRF、simulation）。DGE 是 `dsge-viz` 內的 deterministic 特例，不獨立成套件 | 規劃中 |
-| `bezierkit` | 純數學 Bézier 曲線工具包（泛型 degree/dimension，不做 renderer）。`utility-viz` v2.x 的 tikz 輸出依賴它 | 進行中，見 `bezierkit-implementation-plan.md` |
-| `econ-viz-theme` | 從 `utility-viz` 抽出的共用 Theme/Config 層（顏色/線寬/marker/label/legend 資料類別 + TOML 設定載入器），供多套件共用視覺系統 | 規劃中 |
+| `micro-viz` | 個體經濟學（不含效用函數本身）：Consumer Choice（budget/Marshallian·Hicksian demand/Engel/PCC·ICC/Slutsky decomposition）、Revealed Preference（WARP/SARP/GARP）、Producer Theory（isoquant/isocost/cost minimization/profit maximization）、Cost Theory（AC/AVC/MC）、General Equilibrium（Edgeworth box、contract curve、core，吃 `utility-viz` 的 preference object） | repo 已建立（private，空），未動工 |
+| `macro-viz` | 總體經濟學：Classical（labor market/production/loanable funds/quantity theory）、Keynesian（Keynesian cross/IS-LM/AD-AS）、New Keynesian（三方程模型）、Growth（Solow/Ramsey）、Dynamics（ODE/difference equation/phase diagram）、Quadrant（多象限聯動圖）。DGE/DSGE 不放在這裡 | repo 已建立（private，空），未動工 |
+| `trade-viz` | 國際貿易：autarky/world price/imports·exports/tariff/quota/trade welfare | repo 已建立（private，空），未動工 |
+| `dsge-viz` | 動態（隨機）一般均衡：deterministic 層（DGE：household/firm optimization、transition dynamics、saddle path）+ stochastic 層（DSGE：linearization、state-space、IRF、simulation）。DGE 是 `dsge-viz` 內的 deterministic 特例，不獨立成套件、不獨立開 repo | repo 已建立（private，空），未動工 |
+| `bezierkit` | 純數學 Bézier 曲線工具包（泛型 degree/dimension，不做 renderer）。`utility-viz` v2.x 的 tikz 輸出依賴它 | repo 已建立（private，空），已 clone 到本機，實作計畫見 `bezierkit-implementation-plan.md`（本機 `~/Downloads`），尚未動工 |
+| `econ-viz-theme` | 從 `utility-viz` 抽出的共用 Theme/Config 層（顏色/線寬/marker/label/legend 資料類別 + TOML 設定載入器），供多套件共用視覺系統 | repo 已建立（private，空），未動工 |
 
 ## 架構決策
 
