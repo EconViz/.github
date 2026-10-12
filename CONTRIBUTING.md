@@ -4,7 +4,7 @@ Thanks for your interest in contributing! This is the default guide for all repo
 
 ## Before you start
 
-- Check the **[econ-viz Roadmap](https://github.com/orgs/EconViz/projects/1)** to see what is already planned or in progress.
+- Check the **[EconViz Roadmap](https://github.com/orgs/EconViz/projects/1)** to see what is already planned or in progress.
 - Search existing [issues](https://github.com/issues?q=org%3AEconViz) before opening a new one.
 - For larger changes, open an issue first so we can agree on the approach before you write code.
 
@@ -12,7 +12,7 @@ Thanks for your interest in contributing! This is the default guide for all repo
 
 Open an issue with:
 
-- The package and version (`pip show econ-viz`)
+- The package and version (`pip show <package>`, for example `pip show utility-viz`)
 - Your Python version and OS
 - A minimal code snippet that reproduces the problem
 - What you expected, and what happened instead (attach the output figure if relevant)
@@ -27,17 +27,16 @@ Open an issue describing the economic concept or use case, ideally with a refere
 2. Install the development environment:
 
    ```bash
-   pip install poetry
-   poetry install --with dev
+   uv sync --all-extras
    ```
 
 3. Make your change and add tests for any new behaviour.
-4. Run the test suite: `poetry run pytest`
+4. Run the test suite: `uv run pytest`
 5. Open a pull request against `main` and describe what changed and why.
 
 ## Code style
 
-- Python 3.12+
+- Python 3.10+
 - Follow the existing style of the repository
 - Keep public APIs documented with docstrings
 
