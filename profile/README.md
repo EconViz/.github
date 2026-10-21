@@ -13,7 +13,7 @@
 
 ## Packages
 
-EconViz is made of four packages. Two draw economics diagrams, and two are general-purpose building blocks they share.
+EconViz is made of six packages. Two draw economics diagrams, and four are general-purpose building blocks they share.
 
 ### Economics
 
@@ -28,6 +28,8 @@ EconViz is made of four packages. Two draw economics diagrams, and two are gener
 |---|---|
 | [**mosaickit**](https://github.com/EconViz/mosaickit) | A domain-neutral toolkit for assembling two-dimensional diagrams from scenes, layers, styles and renderers. |
 | [**bezierkit**](https://github.com/EconViz/bezierkit) | A small toolkit for constructing, analyzing and exporting Bézier curves, with SVG and TikZ output. |
+| [**glyphkit**](https://github.com/EconViz/glyphkit) | A domain-neutral typography and glyph geometry engine: font loading, text and math layout. |
+| [**kinetickit**](https://github.com/EconViz/kinetickit) | A domain-neutral engine for precise 2D and 3D animation. |
 
 ### Project
 
