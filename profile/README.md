@@ -56,9 +56,17 @@ cvs.add_equilibrium(eq, show_ray=True)
 cvs.save("cobb_douglas.png")
 ```
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/EconViz/econ-viz-docs/main/docs/assets/models/cobb_douglas.png" alt="Cobb-Douglas indifference map with budget line and equilibrium point" width="520">
-</p>
+### utility-viz
+
+| Consumer equilibrium | Price effect | Edgeworth box | Leontief |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/EconViz/econ-viz-docs/main/docs/assets/utility-viz/agora/canvas/show_save.svg" alt="Consumer equilibrium" width="220"> | <img src="https://raw.githubusercontent.com/EconViz/econ-viz-docs/main/docs/assets/utility-viz/agora/consumer/hicks.svg" alt="Price effect" width="220"> | <img src="https://raw.githubusercontent.com/EconViz/econ-viz-docs/main/docs/assets/utility-viz/agora/consumer/edgeworth.svg" alt="Edgeworth box" width="220"> | <img src="https://raw.githubusercontent.com/EconViz/econ-viz-docs/main/docs/assets/utility-viz/agora/models/leontief.svg" alt="Leontief" width="220"> |
+
+### principle-viz
+
+| Demand shift | Tax welfare | Price ceiling | Tariff |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/EconViz/econ-viz-docs/main/docs/assets/principle-viz/agora/markets/shift_demand_increase.svg" alt="Demand shift" width="220"> | <img src="https://raw.githubusercontent.com/EconViz/econ-viz-docs/main/docs/assets/principle-viz/agora/taxes/welfare.svg" alt="Tax welfare" width="220"> | <img src="https://raw.githubusercontent.com/EconViz/econ-viz-docs/main/docs/assets/principle-viz/agora/controls/ceiling_welfare.svg" alt="Price ceiling" width="220"> | <img src="https://raw.githubusercontent.com/EconViz/econ-viz-docs/main/docs/assets/principle-viz/agora/trade/tariff.svg" alt="Tariff" width="220"> |
 
 Coming from `econ-viz` 1.x? See the [migration guide](https://econ-viz.org/utility-viz/migrating/).
 
